@@ -16,3 +16,15 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 });
+Route::get('/start', function () {
+    return view('pages.start.start');
+});
+Route::get('/profile/signin', function () {
+    return view('pages.profile.profile_signin');
+});
+Route::get('/profile/signup', function () {
+    return view('pages.profile.profile_signup');
+});
+Route::get('/quiz', function () {
+    return view('pages.quiz.quiz');
+});
