@@ -28,3 +28,6 @@ Route::get('/profile/signup', function () {
 Route::get('/quiz', function () {
     return view('pages.quiz.quiz');
 });
+Route::get('/quiz/entrepreneurProfileTest', function () {
+    return view('pages.quiz.entrepreneurProfileTest');
+});
