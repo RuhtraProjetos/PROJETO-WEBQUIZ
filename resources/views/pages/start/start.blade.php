@@ -4,14 +4,12 @@
         <div class="pt-16 pb-80 sm:pt-24 sm:pb-40 lg:pt-40 lg:pb-48">
             <div class="relative mx-auto max-w-7xl px-4 sm:static sm:px-6 lg:px-8">
                 <div class="sm:max-w-lg">
-                    <h1 class="font text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl">Summer styles are finally
-                        here</h1>
-                    <p class="mt-4 text-xl text-gray-500">This year, our new summer collection will shelter you from the
-                        harsh elements of a world that doesn't care if you live or die.</p>
+                    <h1 class="font text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl">Qual sera o seu Perfil?</h1>
+                    <p class="mt-4 text-xl text-gray-500">Faça diferentes tipos de testes e veja seus possiveis perfis em
+                        diferentes áreas.</p>
                 </div>
                 <div>
                     <div class="mt-10">
-                        <!-- Decorative image grid -->
                         <div class="pointer-events-none lg:absolute lg:inset-y-0 lg:mx-auto lg:w-full lg:max-w-7xl"
                             aria-hidden="true">
                             <div
@@ -61,7 +59,6 @@
                                 </div>
                             </div>
                         </div>
-
                         <a class="inline-block rounded-md border border-transparent bg-indigo-600 py-3 px-8 text-center font-medium text-white hover:bg-indigo-700"
                             href="/quiz">Iníciar Questionário</a>
                     </div>
