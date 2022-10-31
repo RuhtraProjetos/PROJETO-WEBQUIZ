@@ -12,35 +12,70 @@
         <div class="lg:text-center">
             <h2 class="text-lg font-semibold text-indigo-600">Teste de Perfil
                 Empreendedor</h2>
-            <p class="mt-2 text-3xl font-bold leading-8 tracking-tight text-gray-900 sm:text-4xl">Teste 1 – Auto-avaliação
-                de seu perfil empreendedor
+            <p class="mt-2 text-3xl font-bold leading-8 tracking-tight text-gray-900 sm:text-4xl">Teste 2 – Auto-avaliação de
+                seu perfil empreendedor
             </p>
-            <p class="mt-4 max-w-2xl text-xl text-gray-500 lg:mx-auto">(ambiente, atitudes e know-how)</p>
+            <p class="mt-4 max-w-2xl text-xl text-gray-500 lg:mx-auto">(habilidades gerenciais)</p>
         </div>
         <div class="mx-auto max-w-7xl py-12 px-4 sm:px-6 lg:flex lg:items-center lg:justify-between lg:py-16 lg:px-8">
             <ul class="mt-4 max-w-2xl text-xl text-gray-500 lg:mx-auto list-decimal">
-                <li>Atribua à sua pessoa uma nota de 1 a 5 para cada uma das características a seguir e escreva a
-                    nota na última coluna.</li>
-                <li>Some as notas obtidas para todas as características.</li>
-                <li>Analise seu resultado global com base nas explicações ao final.</li>
-                <li>Destaque seus principais pontos fortes e pontos fracos.</li>
-                <li>Quais dos pontos fortes destacados são mais importantes para o desempenho de suas
-                    atribuições atuais na empresa?</li>
-                <li>Quais dos pontos fracos destacados deveriam ser trabalhados para que o seu desempenho na
-                    empresa seja melhorado? É possível melhora-los?</li>
+                <li>Atribua à sua pessoa uma nota de 1 a 5 para cada uma das competências a seguir.</li>
+                <li>Defina qual a importância de cada competência para sua empresa (relativa à sua função/cargo),
+                    atribuindo também notas de 1 a 5.
+                </li>
+                <li>Calcule a diferença entre as duas notas para cada competência.</li>
+                <li>Selecione com um círculo as competências de maior importância para sua empresa.</li>
+                <li>Para as competências selecionadas, destaque as que obtiverem as maiores diferenças nos
+                    cálculos.</li>
+                <li>Essas são as competências que você deverá priorizar, buscando aperfeiçoa-las para obter
+                    melhores resultados dentro de sua organização. Assim, defina estratégias para atingir esse
+                    objetivo.</li>
             </ul>
         </div>
     </div>
     <div class="border">
-        <p class="mt-2 text-3xl font-bold leading-8 m-4 tracking-tight text-gray-900 sm:text-3xl">Comprometimento e
-            determinação
-        </p>
+        <p class="mt-2 text-3xl font-bold leading-8 m-4 tracking-tight text-gray-900 sm:text-3xl">Marketing</p>
         <div class="bg-gray-100">
             <div class="mx-auto max-w-7xl py-12 px-4 sm:px-6 lg:flex lg:items-center lg:justify-between lg:py-16 lg:px-8">
                 <fieldset>
-                    <legend class="contents text-base font-medium text-gray-900">01 - Proatividade na tomada de decisão.
-                    </legend>
+                    <legend class="contents text-base font-medium text-gray-900">01 - Avaliação e pesquisa de
+                        mercado. </legend>
                     <div class="mt-4 space-y-4">
+                        <legend class="contents text-sm font-medium text-gray-900">Sua avaliação</legend>
+                        <div class="flex items-center">
+                            <input class="h-4 w-4 border-gray-300 text-indigo-600 focus:ring-indigo-500"
+                                id="push-everything" name="push-notifications" type="radio">
+                            <label class="ml-3 block text-sm font-medium text-gray-700" for="push-everything">01 para
+                                Insuficiente</label>
+                        </div>
+                        <div class="flex items-center">
+                            <input class="h-4 w-4 border-gray-300 text-indigo-600 focus:ring-indigo-500" id="push-email"
+                                name="push-notifications" type="radio">
+                            <label class="ml-3 block text-sm font-medium text-gray-700" for="push-email">02 para
+                                Fraco</label>
+                        </div>
+                        <div class="flex items-center">
+                            <input class="h-4 w-4 border-gray-300 text-indigo-600 focus:ring-indigo-500" id="push-email"
+                                name="push-notifications" type="radio">
+                            <label class="ml-3 block text-sm font-medium text-gray-700" for="push-email">03 para
+                                Regular</label>
+                        </div>
+                        <div class="flex items-center">
+                            <input class="h-4 w-4 border-gray-300 text-indigo-600 focus:ring-indigo-500" id="push-email"
+                                name="push-notifications" type="radio">
+                            <label class="ml-3 block text-sm font-medium text-gray-700" for="push-email">04 para Bom</label>
+                        </div>
+                        <div class="flex items-center">
+                            <input class="h-4 w-4 border-gray-300 text-indigo-600 focus:ring-indigo-500" id="push-nothing"
+                                name="push-notifications" type="radio">
+                            <label class="ml-3 block text-sm font-medium text-gray-700" for="push-nothing">05 para
+                                Excelente</label>
+                        </div>
+                    </div>
+                    <div class="mt-4 space-y-4">
+                        <legend class="contents text-sm font-medium text-gray-900">Importância para sua
+                            empresa </legend>
+
                         <div class="flex items-center">
                             <input class="h-4 w-4 border-gray-300 text-indigo-600 focus:ring-indigo-500"
                                 id="push-everything" name="push-notifications" type="radio">
@@ -73,8 +108,9 @@
                     </div>
                 </fieldset>
                 <fieldset>
-                    <legend class="contents text-base font-medium text-gray-900">02 - Tenacidade, obstinação.</legend>
+                    <legend class="contents text-base font-medium text-gray-900">02 - Planejamento de marketing. </legend>
                     <div class="mt-4 space-y-4">
+                        <legend class="contents text-sm font-medium text-gray-900">Sua avaliação</legend>
                         <div class="flex items-center">
                             <input class="h-4 w-4 border-gray-300 text-indigo-600 focus:ring-indigo-500"
                                 id="push-everything" name="push-notifications" type="radio">
@@ -96,7 +132,43 @@
                         <div class="flex items-center">
                             <input class="h-4 w-4 border-gray-300 text-indigo-600 focus:ring-indigo-500" id="push-email"
                                 name="push-notifications" type="radio">
-                            <label class="ml-3 block text-sm font-medium text-gray-700" for="push-email">04 para Bom</label>
+                            <label class="ml-3 block text-sm font-medium text-gray-700" for="push-email">04 para
+                                Bom</label>
+                        </div>
+                        <div class="flex items-center">
+                            <input class="h-4 w-4 border-gray-300 text-indigo-600 focus:ring-indigo-500" id="push-nothing"
+                                name="push-notifications" type="radio">
+                            <label class="ml-3 block text-sm font-medium text-gray-700" for="push-nothing">05 para
+                                Excelente</label>
+                        </div>
+                    </div>
+                    <div class="mt-4 space-y-4">
+                        <legend class="contents text-sm font-medium text-gray-900">Importância para sua
+                            empresa </legend>
+
+                        <div class="flex items-center">
+                            <input class="h-4 w-4 border-gray-300 text-indigo-600 focus:ring-indigo-500"
+                                id="push-everything" name="push-notifications" type="radio">
+                            <label class="ml-3 block text-sm font-medium text-gray-700" for="push-everything">01 para
+                                Insuficiente</label>
+                        </div>
+                        <div class="flex items-center">
+                            <input class="h-4 w-4 border-gray-300 text-indigo-600 focus:ring-indigo-500" id="push-email"
+                                name="push-notifications" type="radio">
+                            <label class="ml-3 block text-sm font-medium text-gray-700" for="push-email">02 para
+                                Fraco</label>
+                        </div>
+                        <div class="flex items-center">
+                            <input class="h-4 w-4 border-gray-300 text-indigo-600 focus:ring-indigo-500" id="push-email"
+                                name="push-notifications" type="radio">
+                            <label class="ml-3 block text-sm font-medium text-gray-700" for="push-email">03 para
+                                Regular</label>
+                        </div>
+                        <div class="flex items-center">
+                            <input class="h-4 w-4 border-gray-300 text-indigo-600 focus:ring-indigo-500" id="push-email"
+                                name="push-notifications" type="radio">
+                            <label class="ml-3 block text-sm font-medium text-gray-700" for="push-email">04 para
+                                Bom</label>
                         </div>
                         <div class="flex items-center">
                             <input class="h-4 w-4 border-gray-300 text-indigo-600 focus:ring-indigo-500" id="push-nothing"
@@ -107,8 +179,45 @@
                     </div>
                 </fieldset>
                 <fieldset>
-                    <legend class="contents text-base font-medium text-gray-900">03 - Disciplina, dedicação.</legend>
+                    <legend class="contents text-base font-medium text-gray-900">03 - Estabelecimento de preços
+                        dos produtos.</legend>
                     <div class="mt-4 space-y-4">
+                        <legend class="contents text-sm font-medium text-gray-900">Sua avaliação</legend>
+                        <div class="flex items-center">
+                            <input class="h-4 w-4 border-gray-300 text-indigo-600 focus:ring-indigo-500"
+                                id="push-everything" name="push-notifications" type="radio">
+                            <label class="ml-3 block text-sm font-medium text-gray-700" for="push-everything">01 para
+                                Insuficiente</label>
+                        </div>
+                        <div class="flex items-center">
+                            <input class="h-4 w-4 border-gray-300 text-indigo-600 focus:ring-indigo-500" id="push-email"
+                                name="push-notifications" type="radio">
+                            <label class="ml-3 block text-sm font-medium text-gray-700" for="push-email">02 para
+                                Fraco</label>
+                        </div>
+                        <div class="flex items-center">
+                            <input class="h-4 w-4 border-gray-300 text-indigo-600 focus:ring-indigo-500" id="push-email"
+                                name="push-notifications" type="radio">
+                            <label class="ml-3 block text-sm font-medium text-gray-700" for="push-email">03 para
+                                Regular</label>
+                        </div>
+                        <div class="flex items-center">
+                            <input class="h-4 w-4 border-gray-300 text-indigo-600 focus:ring-indigo-500" id="push-email"
+                                name="push-notifications" type="radio">
+                            <label class="ml-3 block text-sm font-medium text-gray-700" for="push-email">04 para
+                                Bom</label>
+                        </div>
+                        <div class="flex items-center">
+                            <input class="h-4 w-4 border-gray-300 text-indigo-600 focus:ring-indigo-500" id="push-nothing"
+                                name="push-notifications" type="radio">
+                            <label class="ml-3 block text-sm font-medium text-gray-700" for="push-nothing">05 para
+                                Excelente</label>
+                        </div>
+                    </div>
+                    <div class="mt-4 space-y-4">
+                        <legend class="contents text-sm font-medium text-gray-900">Importância para sua
+                            empresa </legend>
+
                         <div class="flex items-center">
                             <input class="h-4 w-4 border-gray-300 text-indigo-600 focus:ring-indigo-500"
                                 id="push-everything" name="push-notifications" type="radio">
@@ -146,9 +255,44 @@
         <div class="bg-gray-100">
             <div class="mx-auto max-w-7xl py-12 px-4 sm:px-6 lg:flex lg:items-center lg:justify-between lg:py-16 lg:px-8">
                 <fieldset>
-                    <legend class="contents text-base font-medium text-gray-900">04 - Persistência em resolver problemas.
-                    </legend>
+                    <legend class="contents text-base font-medium text-gray-900">04 - Gerenciamento de vendas</legend>
                     <div class="mt-4 space-y-4">
+                        <legend class="contents text-sm font-medium text-gray-900">Sua avaliação</legend>
+                        <div class="flex items-center">
+                            <input class="h-4 w-4 border-gray-300 text-indigo-600 focus:ring-indigo-500"
+                                id="push-everything" name="push-notifications" type="radio">
+                            <label class="ml-3 block text-sm font-medium text-gray-700" for="push-everything">01 para
+                                Insuficiente</label>
+                        </div>
+                        <div class="flex items-center">
+                            <input class="h-4 w-4 border-gray-300 text-indigo-600 focus:ring-indigo-500" id="push-email"
+                                name="push-notifications" type="radio">
+                            <label class="ml-3 block text-sm font-medium text-gray-700" for="push-email">02 para
+                                Fraco</label>
+                        </div>
+                        <div class="flex items-center">
+                            <input class="h-4 w-4 border-gray-300 text-indigo-600 focus:ring-indigo-500" id="push-email"
+                                name="push-notifications" type="radio">
+                            <label class="ml-3 block text-sm font-medium text-gray-700" for="push-email">03 para
+                                Regular</label>
+                        </div>
+                        <div class="flex items-center">
+                            <input class="h-4 w-4 border-gray-300 text-indigo-600 focus:ring-indigo-500" id="push-email"
+                                name="push-notifications" type="radio">
+                            <label class="ml-3 block text-sm font-medium text-gray-700" for="push-email">04 para
+                                Bom</label>
+                        </div>
+                        <div class="flex items-center">
+                            <input class="h-4 w-4 border-gray-300 text-indigo-600 focus:ring-indigo-500" id="push-nothing"
+                                name="push-notifications" type="radio">
+                            <label class="ml-3 block text-sm font-medium text-gray-700" for="push-nothing">05 para
+                                Excelente</label>
+                        </div>
+                    </div>
+                    <div class="mt-4 space-y-4">
+                        <legend class="contents text-sm font-medium text-gray-900">Importância para sua
+                            empresa </legend>
+
                         <div class="flex items-center">
                             <input class="h-4 w-4 border-gray-300 text-indigo-600 focus:ring-indigo-500"
                                 id="push-everything" name="push-notifications" type="radio">
@@ -182,10 +326,45 @@
                     </div>
                 </fieldset>
                 <fieldset>
-                    <legend class="contents text-base font-medium text-gray-900">05 - Disposição ao sacrifício para atingir
-                        metas.
-                    </legend>
+                    <legend class="contents text-base font-medium text-gray-900">05 - Venda por catálogo/mala
+                        direta.</legend>
                     <div class="mt-4 space-y-4">
+                        <legend class="contents text-sm font-medium text-gray-900">Sua avaliação</legend>
+                        <div class="flex items-center">
+                            <input class="h-4 w-4 border-gray-300 text-indigo-600 focus:ring-indigo-500"
+                                id="push-everything" name="push-notifications" type="radio">
+                            <label class="ml-3 block text-sm font-medium text-gray-700" for="push-everything">01 para
+                                Insuficiente</label>
+                        </div>
+                        <div class="flex items-center">
+                            <input class="h-4 w-4 border-gray-300 text-indigo-600 focus:ring-indigo-500" id="push-email"
+                                name="push-notifications" type="radio">
+                            <label class="ml-3 block text-sm font-medium text-gray-700" for="push-email">02 para
+                                Fraco</label>
+                        </div>
+                        <div class="flex items-center">
+                            <input class="h-4 w-4 border-gray-300 text-indigo-600 focus:ring-indigo-500" id="push-email"
+                                name="push-notifications" type="radio">
+                            <label class="ml-3 block text-sm font-medium text-gray-700" for="push-email">03 para
+                                Regular</label>
+                        </div>
+                        <div class="flex items-center">
+                            <input class="h-4 w-4 border-gray-300 text-indigo-600 focus:ring-indigo-500" id="push-email"
+                                name="push-notifications" type="radio">
+                            <label class="ml-3 block text-sm font-medium text-gray-700" for="push-email">04 para
+                                Bom</label>
+                        </div>
+                        <div class="flex items-center">
+                            <input class="h-4 w-4 border-gray-300 text-indigo-600 focus:ring-indigo-500" id="push-nothing"
+                                name="push-notifications" type="radio">
+                            <label class="ml-3 block text-sm font-medium text-gray-700" for="push-nothing">05 para
+                                Excelente</label>
+                        </div>
+                    </div>
+                    <div class="mt-4 space-y-4">
+                        <legend class="contents text-sm font-medium text-gray-900">Importância para sua
+                            empresa </legend>
+
                         <div class="flex items-center">
                             <input class="h-4 w-4 border-gray-300 text-indigo-600 focus:ring-indigo-500"
                                 id="push-everything" name="push-notifications" type="radio">
@@ -219,10 +398,10 @@
                     </div>
                 </fieldset>
                 <fieldset>
-                    <legend class="contents text-base font-medium text-gray-900">06 - Imersão total nas atividades que
-                        desenvolve.
-                    </legend>
+                    <legend class="contents text-base font-medium text-gray-900">03 - Estabelecimento de preços
+                        dos produtos.</legend>
                     <div class="mt-4 space-y-4">
+                        <legend class="contents text-sm font-medium text-gray-900">Sua avaliação</legend>
                         <div class="flex items-center">
                             <input class="h-4 w-4 border-gray-300 text-indigo-600 focus:ring-indigo-500"
                                 id="push-everything" name="push-notifications" type="radio">
@@ -254,284 +433,10 @@
                                 Excelente</label>
                         </div>
                     </div>
-                </fieldset>
-            </div>
-        </div>
-    </div>
-    <div class="border">
-        <p class="mt-2 text-3xl font-bold leading-8 m-4 tracking-tight text-gray-900 sm:text-3xl">Obsessão pelas
-            oportunidades
-        </p>
-        <div class="bg-gray-100">
-            <div class="mx-auto max-w-7xl py-12 px-4 sm:px-6 lg:flex lg:items-center lg:justify-between lg:py-16 lg:px-8">
-                <fieldset>
-                    <legend class="contents text-base font-medium text-gray-900">07 - Procura ter conhecimento profundo das
-                        necessidades dos clientes.</legend>
                     <div class="mt-4 space-y-4">
-                        <div class="flex items-center">
-                            <input class="h-4 w-4 border-gray-300 text-indigo-600 focus:ring-indigo-500"
-                                id="push-everything" name="push-notifications" type="radio">
-                            <label class="ml-3 block text-sm font-medium text-gray-700" for="push-everything">01 para
-                                Insuficiente</label>
-                        </div>
-                        <div class="flex items-center">
-                            <input class="h-4 w-4 border-gray-300 text-indigo-600 focus:ring-indigo-500" id="push-email"
-                                name="push-notifications" type="radio">
-                            <label class="ml-3 block text-sm font-medium text-gray-700" for="push-email">02 para
-                                Fraco</label>
-                        </div>
-                        <div class="flex items-center">
-                            <input class="h-4 w-4 border-gray-300 text-indigo-600 focus:ring-indigo-500" id="push-email"
-                                name="push-notifications" type="radio">
-                            <label class="ml-3 block text-sm font-medium text-gray-700" for="push-email">03 para
-                                Regular</label>
-                        </div>
-                        <div class="flex items-center">
-                            <input class="h-4 w-4 border-gray-300 text-indigo-600 focus:ring-indigo-500" id="push-email"
-                                name="push-notifications" type="radio">
-                            <label class="ml-3 block text-sm font-medium text-gray-700" for="push-email">04 para
-                                Bom</label>
-                        </div>
-                        <div class="flex items-center">
-                            <input class="h-4 w-4 border-gray-300 text-indigo-600 focus:ring-indigo-500" id="push-nothing"
-                                name="push-notifications" type="radio">
-                            <label class="ml-3 block text-sm font-medium text-gray-700" for="push-nothing">05 para
-                                Excelente</label>
-                        </div>
-                    </div>
-                </fieldset>
-                <fieldset>
-                    <legend class="contents text-base font-medium text-gray-900">08 - É dirigido pelo mercado (market
-                        driven).</legend>
-                    <div class="mt-4 space-y-4">
-                        <div class="flex items-center">
-                            <input class="h-4 w-4 border-gray-300 text-indigo-600 focus:ring-indigo-500"
-                                id="push-everything" name="push-notifications" type="radio">
-                            <label class="ml-3 block text-sm font-medium text-gray-700" for="push-everything">01 para
-                                Insuficiente</label>
-                        </div>
-                        <div class="flex items-center">
-                            <input class="h-4 w-4 border-gray-300 text-indigo-600 focus:ring-indigo-500" id="push-email"
-                                name="push-notifications" type="radio">
-                            <label class="ml-3 block text-sm font-medium text-gray-700" for="push-email">02 para
-                                Fraco</label>
-                        </div>
-                        <div class="flex items-center">
-                            <input class="h-4 w-4 border-gray-300 text-indigo-600 focus:ring-indigo-500" id="push-email"
-                                name="push-notifications" type="radio">
-                            <label class="ml-3 block text-sm font-medium text-gray-700" for="push-email">03 para
-                                Regular</label>
-                        </div>
-                        <div class="flex items-center">
-                            <input class="h-4 w-4 border-gray-300 text-indigo-600 focus:ring-indigo-500" id="push-email"
-                                name="push-notifications" type="radio">
-                            <label class="ml-3 block text-sm font-medium text-gray-700" for="push-email">04 para
-                                Bom</label>
-                        </div>
-                        <div class="flex items-center">
-                            <input class="h-4 w-4 border-gray-300 text-indigo-600 focus:ring-indigo-500" id="push-nothing"
-                                name="push-notifications" type="radio">
-                            <label class="ml-3 block text-sm font-medium text-gray-700" for="push-nothing">05 para
-                                Excelente</label>
-                        </div>
-                    </div>
-                </fieldset>
-                <fieldset>
-                    <legend class="contents text-base font-medium text-gray-900">09 - Obsessão em criar valor e satisfazer
-                        aos clientes.</legend>
-                    <div class="mt-4 space-y-4">
-                        <div class="flex items-center">
-                            <input class="h-4 w-4 border-gray-300 text-indigo-600 focus:ring-indigo-500"
-                                id="push-everything" name="push-notifications" type="radio">
-                            <label class="ml-3 block text-sm font-medium text-gray-700" for="push-everything">01 para
-                                Insuficiente</label>
-                        </div>
-                        <div class="flex items-center">
-                            <input class="h-4 w-4 border-gray-300 text-indigo-600 focus:ring-indigo-500" id="push-email"
-                                name="push-notifications" type="radio">
-                            <label class="ml-3 block text-sm font-medium text-gray-700" for="push-email">02 para
-                                Fraco</label>
-                        </div>
-                        <div class="flex items-center">
-                            <input class="h-4 w-4 border-gray-300 text-indigo-600 focus:ring-indigo-500" id="push-email"
-                                name="push-notifications" type="radio">
-                            <label class="ml-3 block text-sm font-medium text-gray-700" for="push-email">03 para
-                                Regular</label>
-                        </div>
-                        <div class="flex items-center">
-                            <input class="h-4 w-4 border-gray-300 text-indigo-600 focus:ring-indigo-500" id="push-email"
-                                name="push-notifications" type="radio">
-                            <label class="ml-3 block text-sm font-medium text-gray-700" for="push-email">04 para
-                                Bom</label>
-                        </div>
-                        <div class="flex items-center">
-                            <input class="h-4 w-4 border-gray-300 text-indigo-600 focus:ring-indigo-500" id="push-nothing"
-                                name="push-notifications" type="radio">
-                            <label class="ml-3 block text-sm font-medium text-gray-700" for="push-nothing">05 para
-                                Excelente</label>
-                        </div>
-                    </div>
-                </fieldset>
-            </div>
-        </div>
-    </div>
-    <div class="border">
-        <p class="mt-2 text-3xl font-bold leading-8 m-4 tracking-tight text-gray-900 sm:text-3xl">Tolerância ao risco,
-            ambigüidade e incertezas</p>
-        <div class="bg-gray-100">
-            <div class="mx-auto max-w-7xl py-12 px-4 sm:px-6 lg:flex lg:items-center lg:justify-between lg:py-16 lg:px-8">
-                <fieldset>
-                    <legend class="contents text-base font-medium text-gray-900">10 - Toma riscos calculados (analisa tudo
-                        antes de
-                        agir).</legend>
-                    <div class="mt-4 space-y-4">
-                        <div class="flex items-center">
-                            <input class="h-4 w-4 border-gray-300 text-indigo-600 focus:ring-indigo-500"
-                                id="push-everything" name="push-notifications" type="radio">
-                            <label class="ml-3 block text-sm font-medium text-gray-700" for="push-everything">01 para
-                                Insuficiente</label>
-                        </div>
-                        <div class="flex items-center">
-                            <input class="h-4 w-4 border-gray-300 text-indigo-600 focus:ring-indigo-500" id="push-email"
-                                name="push-notifications" type="radio">
-                            <label class="ml-3 block text-sm font-medium text-gray-700" for="push-email">02 para
-                                Fraco</label>
-                        </div>
-                        <div class="flex items-center">
-                            <input class="h-4 w-4 border-gray-300 text-indigo-600 focus:ring-indigo-500" id="push-email"
-                                name="push-notifications" type="radio">
-                            <label class="ml-3 block text-sm font-medium text-gray-700" for="push-email">03 para
-                                Regular</label>
-                        </div>
-                        <div class="flex items-center">
-                            <input class="h-4 w-4 border-gray-300 text-indigo-600 focus:ring-indigo-500" id="push-email"
-                                name="push-notifications" type="radio">
-                            <label class="ml-3 block text-sm font-medium text-gray-700" for="push-email">04 para
-                                Bom</label>
-                        </div>
-                        <div class="flex items-center">
-                            <input class="h-4 w-4 border-gray-300 text-indigo-600 focus:ring-indigo-500" id="push-nothing"
-                                name="push-notifications" type="radio">
-                            <label class="ml-3 block text-sm font-medium text-gray-700" for="push-nothing">05 para
-                                Excelente</label>
-                        </div>
-                    </div>
-                </fieldset>
-                <fieldset>
-                    <legend class="contents text-base font-medium text-gray-900">11 - Procura minimizar os riscos.</legend>
-                    <div class="mt-4 space-y-4">
-                        <div class="flex items-center">
-                            <input class="h-4 w-4 border-gray-300 text-indigo-600 focus:ring-indigo-500"
-                                id="push-everything" name="push-notifications" type="radio">
-                            <label class="ml-3 block text-sm font-medium text-gray-700" for="push-everything">01 para
-                                Insuficiente</label>
-                        </div>
-                        <div class="flex items-center">
-                            <input class="h-4 w-4 border-gray-300 text-indigo-600 focus:ring-indigo-500" id="push-email"
-                                name="push-notifications" type="radio">
-                            <label class="ml-3 block text-sm font-medium text-gray-700" for="push-email">02 para
-                                Fraco</label>
-                        </div>
-                        <div class="flex items-center">
-                            <input class="h-4 w-4 border-gray-300 text-indigo-600 focus:ring-indigo-500" id="push-email"
-                                name="push-notifications" type="radio">
-                            <label class="ml-3 block text-sm font-medium text-gray-700" for="push-email">03 para
-                                Regular</label>
-                        </div>
-                        <div class="flex items-center">
-                            <input class="h-4 w-4 border-gray-300 text-indigo-600 focus:ring-indigo-500" id="push-email"
-                                name="push-notifications" type="radio">
-                            <label class="ml-3 block text-sm font-medium text-gray-700" for="push-email">04 para
-                                Bom</label>
-                        </div>
-                        <div class="flex items-center">
-                            <input class="h-4 w-4 border-gray-300 text-indigo-600 focus:ring-indigo-500" id="push-nothing"
-                                name="push-notifications" type="radio">
-                            <label class="ml-3 block text-sm font-medium text-gray-700" for="push-nothing">05 para
-                                Excelente</label>
-                        </div>
-                    </div>
-                </fieldset>
-                <fieldset>
-                    <legend class="contents text-base font-medium text-gray-900">12 - Tolerância às incertezas e falta de
-                        estrutura.</legend>
-                    <div class="mt-4 space-y-4">
-                        <div class="flex items-center">
-                            <input class="h-4 w-4 border-gray-300 text-indigo-600 focus:ring-indigo-500"
-                                id="push-everything" name="push-notifications" type="radio">
-                            <label class="ml-3 block text-sm font-medium text-gray-700" for="push-everything">01 para
-                                Insuficiente</label>
-                        </div>
-                        <div class="flex items-center">
-                            <input class="h-4 w-4 border-gray-300 text-indigo-600 focus:ring-indigo-500" id="push-email"
-                                name="push-notifications" type="radio">
-                            <label class="ml-3 block text-sm font-medium text-gray-700" for="push-email">02 para
-                                Fraco</label>
-                        </div>
-                        <div class="flex items-center">
-                            <input class="h-4 w-4 border-gray-300 text-indigo-600 focus:ring-indigo-500" id="push-email"
-                                name="push-notifications" type="radio">
-                            <label class="ml-3 block text-sm font-medium text-gray-700" for="push-email">03 para
-                                Regular</label>
-                        </div>
-                        <div class="flex items-center">
-                            <input class="h-4 w-4 border-gray-300 text-indigo-600 focus:ring-indigo-500" id="push-email"
-                                name="push-notifications" type="radio">
-                            <label class="ml-3 block text-sm font-medium text-gray-700" for="push-email">04 para
-                                Bom</label>
-                        </div>
-                        <div class="flex items-center">
-                            <input class="h-4 w-4 border-gray-300 text-indigo-600 focus:ring-indigo-500" id="push-nothing"
-                                name="push-notifications" type="radio">
-                            <label class="ml-3 block text-sm font-medium text-gray-700" for="push-nothing">05 para
-                                Excelente</label>
-                        </div>
-                    </div>
-                </fieldset>
-            </div>
-        </div>
-        <div class="bg-gray-100">
-            <div class="mx-auto max-w-7xl py-12 px-4 sm:px-6 lg:flex lg:items-center lg:justify-between lg:py-16 lg:px-8">
-                <fieldset>
-                    <legend class="contents text-base font-medium text-gray-900">13 - Tolerância ao estresse e conflitos.
-                    </legend>
-                    <div class="mt-4 space-y-4">
-                        <div class="flex items-center">
-                            <input class="h-4 w-4 border-gray-300 text-indigo-600 focus:ring-indigo-500"
-                                id="push-everything" name="push-notifications" type="radio">
-                            <label class="ml-3 block text-sm font-medium text-gray-700" for="push-everything">01 para
-                                Insuficiente</label>
-                        </div>
-                        <div class="flex items-center">
-                            <input class="h-4 w-4 border-gray-300 text-indigo-600 focus:ring-indigo-500" id="push-email"
-                                name="push-notifications" type="radio">
-                            <label class="ml-3 block text-sm font-medium text-gray-700" for="push-email">02 para
-                                Fraco</label>
-                        </div>
-                        <div class="flex items-center">
-                            <input class="h-4 w-4 border-gray-300 text-indigo-600 focus:ring-indigo-500" id="push-email"
-                                name="push-notifications" type="radio">
-                            <label class="ml-3 block text-sm font-medium text-gray-700" for="push-email">03 para
-                                Regular</label>
-                        </div>
-                        <div class="flex items-center">
-                            <input class="h-4 w-4 border-gray-300 text-indigo-600 focus:ring-indigo-500" id="push-email"
-                                name="push-notifications" type="radio">
-                            <label class="ml-3 block text-sm font-medium text-gray-700" for="push-email">04 para
-                                Bom</label>
-                        </div>
-                        <div class="flex items-center">
-                            <input class="h-4 w-4 border-gray-300 text-indigo-600 focus:ring-indigo-500" id="push-nothing"
-                                name="push-notifications" type="radio">
-                            <label class="ml-3 block text-sm font-medium text-gray-700" for="push-nothing">05 para
-                                Excelente</label>
-                        </div>
-                    </div>
-                </fieldset>
-                <fieldset>
-                    <legend class="contents text-base font-medium text-gray-900">14 - Hábil em resolver problemas e
-                        integrar soluções.</legend>
-                    <div class="mt-4 space-y-4">
+                        <legend class="contents text-sm font-medium text-gray-900">Importância para sua
+                            empresa </legend>
+
                         <div class="flex items-center">
                             <input class="h-4 w-4 border-gray-300 text-indigo-600 focus:ring-indigo-500"
                                 id="push-everything" name="push-notifications" type="radio">
@@ -568,14 +473,48 @@
         </div>
     </div>
     <div class="border">
-        <p class="mt-2 text-3xl font-bold leading-8 m-4 tracking-tight text-gray-900 sm:text-3xl">Criatividade,
-            autoconfiança e habilidade de adaptação</p>
+        <p class="mt-2 text-3xl font-bold leading-8 m-4 tracking-tight text-gray-900 sm:text-3xl"></p>
         <div class="bg-gray-100">
             <div class="mx-auto max-w-7xl py-12 px-4 sm:px-6 lg:flex lg:items-center lg:justify-between lg:py-16 lg:px-8">
                 <fieldset>
-                    <legend class="contents text-base font-medium text-gray-900">15 - Não-convencional, cabeça aberta,
-                        pensador.</legend>
+                    <legend class="contents text-base font-medium text-gray-900"></legend>
                     <div class="mt-4 space-y-4">
+                        <legend class="contents text-sm font-medium text-gray-900">Sua avaliação</legend>
+                        <div class="flex items-center">
+                            <input class="h-4 w-4 border-gray-300 text-indigo-600 focus:ring-indigo-500"
+                                id="push-everything" name="push-notifications" type="radio">
+                            <label class="ml-3 block text-sm font-medium text-gray-700" for="push-everything">01 para
+                                Insuficiente</label>
+                        </div>
+                        <div class="flex items-center">
+                            <input class="h-4 w-4 border-gray-300 text-indigo-600 focus:ring-indigo-500" id="push-email"
+                                name="push-notifications" type="radio">
+                            <label class="ml-3 block text-sm font-medium text-gray-700" for="push-email">02 para
+                                Fraco</label>
+                        </div>
+                        <div class="flex items-center">
+                            <input class="h-4 w-4 border-gray-300 text-indigo-600 focus:ring-indigo-500" id="push-email"
+                                name="push-notifications" type="radio">
+                            <label class="ml-3 block text-sm font-medium text-gray-700" for="push-email">03 para
+                                Regular</label>
+                        </div>
+                        <div class="flex items-center">
+                            <input class="h-4 w-4 border-gray-300 text-indigo-600 focus:ring-indigo-500" id="push-email"
+                                name="push-notifications" type="radio">
+                            <label class="ml-3 block text-sm font-medium text-gray-700" for="push-email">04 para
+                                Bom</label>
+                        </div>
+                        <div class="flex items-center">
+                            <input class="h-4 w-4 border-gray-300 text-indigo-600 focus:ring-indigo-500" id="push-nothing"
+                                name="push-notifications" type="radio">
+                            <label class="ml-3 block text-sm font-medium text-gray-700" for="push-nothing">05 para
+                                Excelente</label>
+                        </div>
+                    </div>
+                    <div class="mt-4 space-y-4">
+                        <legend class="contents text-sm font-medium text-gray-900">Importância para sua
+                            empresa </legend>
+
                         <div class="flex items-center">
                             <input class="h-4 w-4 border-gray-300 text-indigo-600 focus:ring-indigo-500"
                                 id="push-everything" name="push-notifications" type="radio">
@@ -609,9 +548,44 @@
                     </div>
                 </fieldset>
                 <fieldset>
-                    <legend class="contents text-base font-medium text-gray-900">16 - Não se conforma com o status quo.
-                    </legend>
+                    <legend class="contents text-base font-medium text-gray-900"></legend>
                     <div class="mt-4 space-y-4">
+                        <legend class="contents text-sm font-medium text-gray-900">Sua avaliação</legend>
+                        <div class="flex items-center">
+                            <input class="h-4 w-4 border-gray-300 text-indigo-600 focus:ring-indigo-500"
+                                id="push-everything" name="push-notifications" type="radio">
+                            <label class="ml-3 block text-sm font-medium text-gray-700" for="push-everything">01 para
+                                Insuficiente</label>
+                        </div>
+                        <div class="flex items-center">
+                            <input class="h-4 w-4 border-gray-300 text-indigo-600 focus:ring-indigo-500" id="push-email"
+                                name="push-notifications" type="radio">
+                            <label class="ml-3 block text-sm font-medium text-gray-700" for="push-email">02 para
+                                Fraco</label>
+                        </div>
+                        <div class="flex items-center">
+                            <input class="h-4 w-4 border-gray-300 text-indigo-600 focus:ring-indigo-500" id="push-email"
+                                name="push-notifications" type="radio">
+                            <label class="ml-3 block text-sm font-medium text-gray-700" for="push-email">03 para
+                                Regular</label>
+                        </div>
+                        <div class="flex items-center">
+                            <input class="h-4 w-4 border-gray-300 text-indigo-600 focus:ring-indigo-500" id="push-email"
+                                name="push-notifications" type="radio">
+                            <label class="ml-3 block text-sm font-medium text-gray-700" for="push-email">04 para
+                                Bom</label>
+                        </div>
+                        <div class="flex items-center">
+                            <input class="h-4 w-4 border-gray-300 text-indigo-600 focus:ring-indigo-500" id="push-nothing"
+                                name="push-notifications" type="radio">
+                            <label class="ml-3 block text-sm font-medium text-gray-700" for="push-nothing">05 para
+                                Excelente</label>
+                        </div>
+                    </div>
+                    <div class="mt-4 space-y-4">
+                        <legend class="contents text-sm font-medium text-gray-900">Importância para sua
+                            empresa </legend>
+
                         <div class="flex items-center">
                             <input class="h-4 w-4 border-gray-300 text-indigo-600 focus:ring-indigo-500"
                                 id="push-everything" name="push-notifications" type="radio">
@@ -645,9 +619,9 @@
                     </div>
                 </fieldset>
                 <fieldset>
-                    <legend class="contents text-base font-medium text-gray-900">17 - Hábil em se adaptar a novas
-                        situações.</legend>
+                    <legend class="contents text-base font-medium text-gray-900"></legend>
                     <div class="mt-4 space-y-4">
+                        <legend class="contents text-sm font-medium text-gray-900">Sua avaliação</legend>
                         <div class="flex items-center">
                             <input class="h-4 w-4 border-gray-300 text-indigo-600 focus:ring-indigo-500"
                                 id="push-everything" name="push-notifications" type="radio">
@@ -679,14 +653,10 @@
                                 Excelente</label>
                         </div>
                     </div>
-                </fieldset>
-            </div>
-        </div>
-        <div class="bg-gray-100">
-            <div class="mx-auto max-w-7xl py-12 px-4 sm:px-6 lg:flex lg:items-center lg:justify-between lg:py-16 lg:px-8">
-                <fieldset>
-                    <legend class="contents text-base font-medium text-gray-900">18 - Não tem medo de falhar.</legend>
                     <div class="mt-4 space-y-4">
+                        <legend class="contents text-sm font-medium text-gray-900">Importância para sua
+                            empresa </legend>
+
                         <div class="flex items-center">
                             <input class="h-4 w-4 border-gray-300 text-indigo-600 focus:ring-indigo-500"
                                 id="push-everything" name="push-notifications" type="radio">
@@ -714,454 +684,6 @@
                         <div class="flex items-center">
                             <input class="h-4 w-4 border-gray-300 text-indigo-600 focus:ring-indigo-500" id="push-nothing"
                                 name="push-notifications" type="radio">
-                            <label class="ml-3 block text-sm font-medium text-gray-700" for="push-nothing">05 para
-                                Excelente</label>
-                        </div>
-                    </div>
-                </fieldset>
-                <fieldset>
-                    <legend class="contents text-base font-medium text-gray-900">19 - Hábil em definir conceitos e detalhar
-                        idéias.</legend>
-                    <div class="mt-4 space-y-4">
-                        <div class="flex items-center">
-                            <input class="h-4 w-4 border-gray-300 text-indigo-600 focus:ring-indigo-500"
-                                id="push-everything" name="push-notifications" type="radio">
-                            <label class="ml-3 block text-sm font-medium text-gray-700" for="push-everything">01 para
-                                Insuficiente</label>
-                        </div>
-                        <div class="flex items-center">
-                            <input class="h-4 w-4 border-gray-300 text-indigo-600 focus:ring-indigo-500" id="push-email"
-                                name="push-notifications" type="radio">
-                            <label class="ml-3 block text-sm font-medium text-gray-700" for="push-email">02 para
-                                Fraco</label>
-                        </div>
-                        <div class="flex items-center">
-                            <input class="h-4 w-4 border-gray-300 text-indigo-600 focus:ring-indigo-500" id="push-email"
-                                name="push-notifications" type="radio">
-                            <label class="ml-3 block text-sm font-medium text-gray-700" for="push-email">03 para
-                                Regular</label>
-                        </div>
-                        <div class="flex items-center">
-                            <input class="h-4 w-4 border-gray-300 text-indigo-600 focus:ring-indigo-500" id="push-email"
-                                name="push-notifications" type="radio">
-                            <label class="ml-3 block text-sm font-medium text-gray-700" for="push-email">04 para
-                                Bom</label>
-                        </div>
-                        <div class="flex items-center">
-                            <input class="h-4 w-4 border-gray-300 text-indigo-600 focus:ring-indigo-500" id="push-nothing"
-                                name="push-notifications" type="radio">
-                            <label class="ml-3 block text-sm font-medium text-gray-700" for="push-nothing">05 para
-                                Excelente</label>
-                        </div>
-                    </div>
-                </fieldset>
-            </div>
-        </div>
-    </div>
-    <div class="border">
-        <p class="mt-2 text-3xl font-bold leading-8 m-4 tracking-tight text-gray-900 sm:text-3xl">Motivação e superação</p>
-        <div class="bg-gray-100">
-            <div class="mx-auto max-w-7xl py-12 px-4 sm:px-6 lg:flex lg:items-center lg:justify-between lg:py-16 lg:px-8">
-                <fieldset>
-                    <legend class="contents text-base font-medium text-gray-900">20 - Orientação a metas e resultados.
-                    </legend>
-                    <div class="mt-4 space-y-4">
-                        <div class="flex items-center">
-                            <input class="h-4 w-4 border-gray-300 text-indigo-600 focus:ring-indigo-500"
-                                id="push-everything" name="push-notifications" type="radio">
-                            <label class="ml-3 block text-sm font-medium text-gray-700" for="push-everything">01 para
-                                Insuficiente</label>
-                        </div>
-                        <div class="flex items-center">
-                            <input class="h-4 w-4 border-gray-300 text-indigo-600 focus:ring-indigo-500" id="push-email"
-                                name="push-notifications" type="radio">
-                            <label class="ml-3 block text-sm font-medium text-gray-700" for="push-email">02 para
-                                Fraco</label>
-                        </div>
-                        <div class="flex items-center">
-                            <input class="h-4 w-4 border-gray-300 text-indigo-600 focus:ring-indigo-500" id="push-email"
-                                name="push-notifications" type="radio">
-                            <label class="ml-3 block text-sm font-medium text-gray-700" for="push-email">03 para
-                                Regular</label>
-                        </div>
-                        <div class="flex items-center">
-                            <input class="h-4 w-4 border-gray-300 text-indigo-600 focus:ring-indigo-500" id="push-email"
-                                name="push-notifications" type="radio">
-                            <label class="ml-3 block text-sm font-medium text-gray-700" for="push-email">04 para
-                                Bom</label>
-                        </div>
-                        <div class="flex items-center">
-                            <input class="h-4 w-4 border-gray-300 text-indigo-600 focus:ring-indigo-500" id="push-nothing"
-                                name="push-notifications" type="radio">
-                            <label class="ml-3 block text-sm font-medium text-gray-700" for="push-nothing">05 para
-                                Excelente</label>
-                        </div>
-                    </div>
-                </fieldset>
-                <fieldset>
-                    <legend class="contents text-base font-medium text-gray-900">21 - Dirigido pela necessidade de crescer
-                        e atingir
-                        melhores resultados.</legend>
-                    <div class="mt-4 space-y-4">
-                        <div class="flex items-center">
-                            <input class="h-4 w-4 border-gray-300 text-indigo-600 focus:ring-indigo-500"
-                                id="push-everything" name="push-notifications" type="radio">
-                            <label class="ml-3 block text-sm font-medium text-gray-700" for="push-everything">01 para
-                                Insuficiente</label>
-                        </div>
-                        <div class="flex items-center">
-                            <input class="h-4 w-4 border-gray-300 text-indigo-600 focus:ring-indigo-500" id="push-email"
-                                name="push-notifications" type="radio">
-                            <label class="ml-3 block text-sm font-medium text-gray-700" for="push-email">02 para
-                                Fraco</label>
-                        </div>
-                        <div class="flex items-center">
-                            <input class="h-4 w-4 border-gray-300 text-indigo-600 focus:ring-indigo-500" id="push-email"
-                                name="push-notifications" type="radio">
-                            <label class="ml-3 block text-sm font-medium text-gray-700" for="push-email">03 para
-                                Regular</label>
-                        </div>
-                        <div class="flex items-center">
-                            <input class="h-4 w-4 border-gray-300 text-indigo-600 focus:ring-indigo-500" id="push-email"
-                                name="push-notifications" type="radio">
-                            <label class="ml-3 block text-sm font-medium text-gray-700" for="push-email">04 para
-                                Bom</label>
-                        </div>
-                        <div class="flex items-center">
-                            <input class="h-4 w-4 border-gray-300 text-indigo-600 focus:ring-indigo-500" id="push-nothing"
-                                name="push-notifications" type="radio">
-                            <label class="ml-3 block text-sm font-medium text-gray-700" for="push-nothing">05 para
-                                Excelente</label>
-                        </div>
-                    </div>
-                </fieldset>
-                <fieldset>
-                    <legend class="contents text-base font-medium text-gray-900">22 - Não se preocupa com status e poder.
-                    </legend>
-                    <div class="mt-4 space-y-4">
-                        <div class="flex items-center">
-                            <input class="h-4 w-4 border-gray-300 text-indigo-600 focus:ring-indigo-500"
-                                id="push-everything" name="push-notifications" type="radio">
-                            <label class="ml-3 block text-sm font-medium text-gray-700" for="push-everything">01 para
-                                Insuficiente</label>
-                        </div>
-                        <div class="flex items-center">
-                            <input class="h-4 w-4 border-gray-300 text-indigo-600 focus:ring-indigo-500" id="push-email"
-                                name="push-notifications" type="radio">
-                            <label class="ml-3 block text-sm font-medium text-gray-700" for="push-email">02 para
-                                Fraco</label>
-                        </div>
-                        <div class="flex items-center">
-                            <input class="h-4 w-4 border-gray-300 text-indigo-600 focus:ring-indigo-500" id="push-email"
-                                name="push-notifications" type="radio">
-                            <label class="ml-3 block text-sm font-medium text-gray-700" for="push-email">03 para
-                                Regular</label>
-                        </div>
-                        <div class="flex items-center">
-                            <input class="h-4 w-4 border-gray-300 text-indigo-600 focus:ring-indigo-500" id="push-email"
-                                name="push-notifications" type="radio">
-                            <label class="ml-3 block text-sm font-medium text-gray-700" for="push-email">04 para
-                                Bom</label>
-                        </div>
-                        <div class="flex items-center">
-                            <input class="h-4 w-4 border-gray-300 text-indigo-600 focus:ring-indigo-500" id="push-nothing"
-                                name="push-notifications" type="radio">
-                            <label class="ml-3 block text-sm font-medium text-gray-700" for="push-nothing">05 para
-                                Excelente</label>
-                        </div>
-                    </div>
-                </fieldset>
-            </div>
-        </div>
-        <div class="bg-gray-100">
-            <div class="mx-auto max-w-7xl py-12 px-4 sm:px-6 lg:flex lg:items-center lg:justify-between lg:py-16 lg:px-8">
-                <fieldset>
-                    <legend class="contents text-base font-medium text-gray-900">23 - Autoconfiança.</legend>
-                    <div class="mt-4 space-y-4">
-                        <div class="flex items-center">
-                            <input class="h-4 w-4 border-gray-300 text-indigo-600 focus:ring-indigo-500"
-                                id="push-everything" name="push-notifications" type="radio">
-                            <label class="ml-3 block text-sm font-medium text-gray-700" for="push-everything">01 para
-                                Insuficiente</label>
-                        </div>
-                        <div class="flex items-center">
-                            <input class="h-4 w-4 border-gray-300 text-indigo-600 focus:ring-indigo-500" id="push-email"
-                                name="push-notifications" type="radio">
-                            <label class="ml-3 block text-sm font-medium text-gray-700" for="push-email">02 para
-                                Fraco</label>
-                        </div>
-                        <div class="flex items-center">
-                            <input class="h-4 w-4 border-gray-300 text-indigo-600 focus:ring-indigo-500" id="push-email"
-                                name="push-notifications" type="radio">
-                            <label class="ml-3 block text-sm font-medium text-gray-700" for="push-email">03 para
-                                Regular</label>
-                        </div>
-                        <div class="flex items-center">
-                            <input class="h-4 w-4 border-gray-300 text-indigo-600 focus:ring-indigo-500" id="push-email"
-                                name="push-notifications" type="radio">
-                            <label class="ml-3 block text-sm font-medium text-gray-700" for="push-email">04 para
-                                Bom</label>
-                        </div>
-                        <div class="flex items-center">
-                            <input class="h-4 w-4 border-gray-300 text-indigo-600 focus:ring-indigo-500" id="push-nothing"
-                                name="push-notifications" type="radio">
-                            <label class="ml-3 block text-sm font-medium text-gray-700" for="push-nothing">05 para
-                                Excelente</label>
-                        </div>
-                    </div>
-                </fieldset>
-                <fieldset>
-                    <legend class="contents text-base font-medium text-gray-900">24 - Ciente de suas fraquezas e forças.
-                    </legend>
-                    <div class="mt-4 space-y-4">
-                        <div class="flex items-center">
-                            <input class="h-4 w-4 border-gray-300 text-indigo-600 focus:ring-indigo-500"
-                                id="push-everything" name="push-notifications" type="radio">
-                            <label class="ml-3 block text-sm font-medium text-gray-700" for="push-everything">01 para
-                                Insuficiente</label>
-                        </div>
-                        <div class="flex items-center">
-                            <input class="h-4 w-4 border-gray-300 text-indigo-600 focus:ring-indigo-500" id="push-email"
-                                name="push-notifications" type="radio">
-                            <label class="ml-3 block text-sm font-medium text-gray-700" for="push-email">02 para
-                                Fraco</label>
-                        </div>
-                        <div class="flex items-center">
-                            <input class="h-4 w-4 border-gray-300 text-indigo-600 focus:ring-indigo-500" id="push-email"
-                                name="push-notifications" type="radio">
-                            <label class="ml-3 block text-sm font-medium text-gray-700" for="push-email">03 para
-                                Regular</label>
-                        </div>
-                        <div class="flex items-center">
-                            <input class="h-4 w-4 border-gray-300 text-indigo-600 focus:ring-indigo-500" id="push-email"
-                                name="push-notifications" type="radio">
-                            <label class="ml-3 block text-sm font-medium text-gray-700" for="push-email">04 para
-                                Bom</label>
-                        </div>
-                        <div class="flex items-center">
-                            <input class="h-4 w-4 border-gray-300 text-indigo-600 focus:ring-indigo-500" id="push-nothing"
-                                name="push-notifications" type="radio">
-                            <label class="ml-3 block text-sm font-medium text-gray-700" for="push-nothing">05 para
-                                Excelente</label>
-                        </div>
-                    </div>
-                </fieldset>
-                <fieldset>
-                    <legend class="contents text-base font-medium text-gray-900">25 - Tem senso de humor e procura estar
-                        animado.</legend>
-                    <div class="mt-4 space-y-4">
-                        <div class="flex items-center">
-                            <input class="h-4 w-4 border-gray-300 text-indigo-600 focus:ring-indigo-500"
-                                id="push-everything" name="push-notifications" type="radio">
-                            <label class="ml-3 block text-sm font-medium text-gray-700" for="push-everything">01 para
-                                Insuficiente</label>
-                        </div>
-                        <div class="flex items-center">
-                            <input class="h-4 w-4 border-gray-300 text-indigo-600 focus:ring-indigo-500" id="push-email"
-                                name="push-notifications" type="radio">
-                            <label class="ml-3 block text-sm font-medium text-gray-700" for="push-email">02 para
-                                Fraco</label>
-                        </div>
-                        <div class="flex items-center">
-                            <input class="h-4 w-4 border-gray-300 text-indigo-600 focus:ring-indigo-500" id="push-email"
-                                name="push-notifications" type="radio">
-                            <label class="ml-3 block text-sm font-medium text-gray-700" for="push-email">03 para
-                                Regular</label>
-                        </div>
-                        <div class="flex items-center">
-                            <input class="h-4 w-4 border-gray-300 text-indigo-600 focus:ring-indigo-500" id="push-email"
-                                name="push-notifications" type="radio">
-                            <label class="ml-3 block text-sm font-medium text-gray-700" for="push-email">04 para
-                                Bom</label>
-                        </div>
-                        <div class="flex items-center">
-                            <input class="h-4 w-4 border-gray-300 text-indigo-600 focus:ring-indigo-500" id="push-nothing"
-                                name="push-notifications" type="radio">
-                            <label class="ml-3 block text-sm font-medium text-gray-700" for="push-nothing">05 para
-                                Excelente</label>
-                        </div>
-                    </div>
-                </fieldset>
-            </div>
-        </div>
-        <div class="bg-gray-100">
-            <div class="mx-auto max-w-7xl py-12 px-4 sm:px-6 lg:flex lg:items-center lg:justify-between lg:py-16 lg:px-8">
-                <fieldset>
-                    <legend class="contents text-base font-medium text-gray-900">26 - Tem iniciativa.</legend>
-                    <div class="mt-4 space-y-4">
-                        <div class="flex items-center">
-                            <input class="h-4 w-4 border-gray-300 text-indigo-600 focus:ring-indigo-500"
-                                id="push-everything" name="push-notifications" type="radio">
-                            <label class="ml-3 block text-sm font-medium text-gray-700" for="push-everything">01 para
-                                Insuficiente</label>
-                        </div>
-                        <div class="flex items-center">
-                            <input class="h-4 w-4 border-gray-300 text-indigo-600 focus:ring-indigo-500" id="push-email"
-                                name="push-notifications" type="radio">
-                            <label class="ml-3 block text-sm font-medium text-gray-700" for="push-email">02 para
-                                Fraco</label>
-                        </div>
-                        <div class="flex items-center">
-                            <input class="h-4 w-4 border-gray-300 text-indigo-600 focus:ring-indigo-500" id="push-email"
-                                name="push-notifications" type="radio">
-                            <label class="ml-3 block text-sm font-medium text-gray-700" for="push-email">03 para
-                                Regular</label>
-                        </div>
-                        <div class="flex items-center">
-                            <input class="h-4 w-4 border-gray-300 text-indigo-600 focus:ring-indigo-500" id="push-email"
-                                name="push-notifications" type="radio">
-                            <label class="ml-3 block text-sm font-medium text-gray-700" for="push-email">04 para
-                                Bom</label>
-                        </div>
-                        <div class="flex items-center">
-                            <input class="h-4 w-4 border-gray-300 text-indigo-600 focus:ring-indigo-500"
-                                id="push-nothing" name="push-notifications" type="radio">
-                            <label class="ml-3 block text-sm font-medium text-gray-700" for="push-nothing">05 para
-                                Excelente</label>
-                        </div>
-                    </div>
-                </fieldset>
-                <fieldset>
-                    <legend class="contents text-base font-medium text-gray-900">27 - Poder de autocontrole.</legend>
-                    <div class="mt-4 space-y-4">
-                        <div class="flex items-center">
-                            <input class="h-4 w-4 border-gray-300 text-indigo-600 focus:ring-indigo-500"
-                                id="push-everything" name="push-notifications" type="radio">
-                            <label class="ml-3 block text-sm font-medium text-gray-700" for="push-everything">01 para
-                                Insuficiente</label>
-                        </div>
-                        <div class="flex items-center">
-                            <input class="h-4 w-4 border-gray-300 text-indigo-600 focus:ring-indigo-500" id="push-email"
-                                name="push-notifications" type="radio">
-                            <label class="ml-3 block text-sm font-medium text-gray-700" for="push-email">02 para
-                                Fraco</label>
-                        </div>
-                        <div class="flex items-center">
-                            <input class="h-4 w-4 border-gray-300 text-indigo-600 focus:ring-indigo-500" id="push-email"
-                                name="push-notifications" type="radio">
-                            <label class="ml-3 block text-sm font-medium text-gray-700" for="push-email">03 para
-                                Regular</label>
-                        </div>
-                        <div class="flex items-center">
-                            <input class="h-4 w-4 border-gray-300 text-indigo-600 focus:ring-indigo-500" id="push-email"
-                                name="push-notifications" type="radio">
-                            <label class="ml-3 block text-sm font-medium text-gray-700" for="push-email">04 para
-                                Bom</label>
-                        </div>
-                        <div class="flex items-center">
-                            <input class="h-4 w-4 border-gray-300 text-indigo-600 focus:ring-indigo-500"
-                                id="push-nothing" name="push-notifications" type="radio">
-                            <label class="ml-3 block text-sm font-medium text-gray-700" for="push-nothing">05 para
-                                Excelente</label>
-                        </div>
-                    </div>
-                </fieldset>
-                <fieldset>
-                    <legend class="contents text-base font-medium text-gray-900">28 - Transmite integridade e
-                        confiabilidade.</legend>
-                    <div class="mt-4 space-y-4">
-                        <div class="flex items-center">
-                            <input class="h-4 w-4 border-gray-300 text-indigo-600 focus:ring-indigo-500"
-                                id="push-everything" name="push-notifications" type="radio">
-                            <label class="ml-3 block text-sm font-medium text-gray-700" for="push-everything">01 para
-                                Insuficiente</label>
-                        </div>
-                        <div class="flex items-center">
-                            <input class="h-4 w-4 border-gray-300 text-indigo-600 focus:ring-indigo-500" id="push-email"
-                                name="push-notifications" type="radio">
-                            <label class="ml-3 block text-sm font-medium text-gray-700" for="push-email">02 para
-                                Fraco</label>
-                        </div>
-                        <div class="flex items-center">
-                            <input class="h-4 w-4 border-gray-300 text-indigo-600 focus:ring-indigo-500" id="push-email"
-                                name="push-notifications" type="radio">
-                            <label class="ml-3 block text-sm font-medium text-gray-700" for="push-email">03 para
-                                Regular</label>
-                        </div>
-                        <div class="flex items-center">
-                            <input class="h-4 w-4 border-gray-300 text-indigo-600 focus:ring-indigo-500" id="push-email"
-                                name="push-notifications" type="radio">
-                            <label class="ml-3 block text-sm font-medium text-gray-700" for="push-email">04 para
-                                Bom</label>
-                        </div>
-                        <div class="flex items-center">
-                            <input class="h-4 w-4 border-gray-300 text-indigo-600 focus:ring-indigo-500"
-                                id="push-nothing" name="push-notifications" type="radio">
-                            <label class="ml-3 block text-sm font-medium text-gray-700" for="push-nothing">05 para
-                                Excelente</label>
-                        </div>
-                    </div>
-                </fieldset>
-            </div>
-        </div>
-        <div class="bg-gray-100">
-            <div class="mx-auto max-w-7xl py-12 px-4 sm:px-6 lg:flex lg:items-center lg:justify-between lg:py-16 lg:px-8">
-                <fieldset>
-                    <legend class="contents text-base font-medium text-gray-900">29 - É paciente e saber ouvir.</legend>
-                    <div class="mt-4 space-y-4">
-                        <div class="flex items-center">
-                            <input class="h-4 w-4 border-gray-300 text-indigo-600 focus:ring-indigo-500"
-                                id="push-everything" name="push-notifications" type="radio">
-                            <label class="ml-3 block text-sm font-medium text-gray-700" for="push-everything">01 para
-                                Insuficiente</label>
-                        </div>
-                        <div class="flex items-center">
-                            <input class="h-4 w-4 border-gray-300 text-indigo-600 focus:ring-indigo-500" id="push-email"
-                                name="push-notifications" type="radio">
-                            <label class="ml-3 block text-sm font-medium text-gray-700" for="push-email">02 para
-                                Fraco</label>
-                        </div>
-                        <div class="flex items-center">
-                            <input class="h-4 w-4 border-gray-300 text-indigo-600 focus:ring-indigo-500" id="push-email"
-                                name="push-notifications" type="radio">
-                            <label class="ml-3 block text-sm font-medium text-gray-700" for="push-email">03 para
-                                Regular</label>
-                        </div>
-                        <div class="flex items-center">
-                            <input class="h-4 w-4 border-gray-300 text-indigo-600 focus:ring-indigo-500" id="push-email"
-                                name="push-notifications" type="radio">
-                            <label class="ml-3 block text-sm font-medium text-gray-700" for="push-email">04 para
-                                Bom</label>
-                        </div>
-                        <div class="flex items-center">
-                            <input class="h-4 w-4 border-gray-300 text-indigo-600 focus:ring-indigo-500"
-                                id="push-nothing" name="push-notifications" type="radio">
-                            <label class="ml-3 block text-sm font-medium text-gray-700" for="push-nothing">05 para
-                                Excelente</label>
-                        </div>
-                    </div>
-                </fieldset>
-                <fieldset>
-                    <legend class="contents text-base font-medium text-gray-900">30 - Sabe construir times e trabalhar em
-                        equipe.</legend>
-                    <div class="mt-4 space-y-4">
-                        <div class="flex items-center">
-                            <input class="h-4 w-4 border-gray-300 text-indigo-600 focus:ring-indigo-500"
-                                id="push-everything" name="push-notifications" type="radio">
-                            <label class="ml-3 block text-sm font-medium text-gray-700" for="push-everything">01 para
-                                Insuficiente</label>
-                        </div>
-                        <div class="flex items-center">
-                            <input class="h-4 w-4 border-gray-300 text-indigo-600 focus:ring-indigo-500" id="push-email"
-                                name="push-notifications" type="radio">
-                            <label class="ml-3 block text-sm font-medium text-gray-700" for="push-email">02 para
-                                Fraco</label>
-                        </div>
-                        <div class="flex items-center">
-                            <input class="h-4 w-4 border-gray-300 text-indigo-600 focus:ring-indigo-500" id="push-email"
-                                name="push-notifications" type="radio">
-                            <label class="ml-3 block text-sm font-medium text-gray-700" for="push-email">03 para
-                                Regular</label>
-                        </div>
-                        <div class="flex items-center">
-                            <input class="h-4 w-4 border-gray-300 text-indigo-600 focus:ring-indigo-500" id="push-email"
-                                name="push-notifications" type="radio">
-                            <label class="ml-3 block text-sm font-medium text-gray-700" for="push-email">04 para
-                                Bom</label>
-                        </div>
-                        <div class="flex items-center">
-                            <input class="h-4 w-4 border-gray-300 text-indigo-600 focus:ring-indigo-500"
-                                id="push-nothing" name="push-notifications" type="radio">
                             <label class="ml-3 block text-sm font-medium text-gray-700" for="push-nothing">05 para
                                 Excelente</label>
                         </div>
@@ -1188,7 +710,7 @@
                 </div>
                 <div class="order-3 mt-2 w-full flex-shrink-0 sm:order-2 sm:mt-0 sm:w-auto">
                     <a class="flex items-center justify-center rounded-md border border-transparent bg-white px-4 py-2 text-sm font-medium text-indigo-600 shadow-sm hover:bg-indigo-50"
-                        href="/quiz/entrepreneurProfileTest/02">Salvar</a>
+                        href="#">Salvar</a>
                 </div>
             </div>
         </div>
