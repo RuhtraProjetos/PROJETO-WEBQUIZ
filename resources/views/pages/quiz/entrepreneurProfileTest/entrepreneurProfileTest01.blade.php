@@ -37,7 +37,7 @@
         </p>
         <div class="bg-gray-100">
             <div class="mx-auto max-w-7xl py-12 px-4 sm:px-6 lg:flex lg:items-center lg:justify-between lg:py-16 lg:px-8">
-                <fieldset>
+                <fieldset class="p-2">
                     <legend class="contents text-base font-medium text-gray-900">01 - Proatividade na tomada de decisão.
                     </legend>
                     <div class="mt-4 space-y-4">
@@ -72,7 +72,7 @@
                         </div>
                     </div>
                 </fieldset>
-                <fieldset>
+                <fieldset class="p-2">
                     <legend class="contents text-base font-medium text-gray-900">02 - Tenacidade, obstinação.</legend>
                     <div class="mt-4 space-y-4">
                         <div class="flex items-center">
@@ -106,7 +106,7 @@
                         </div>
                     </div>
                 </fieldset>
-                <fieldset>
+                <fieldset class="p-2">
                     <legend class="contents text-base font-medium text-gray-900">03 - Disciplina, dedicação.</legend>
                     <div class="mt-4 space-y-4">
                         <div class="flex items-center">
@@ -145,7 +145,7 @@
         </div>
         <div class="bg-gray-100">
             <div class="mx-auto max-w-7xl py-12 px-4 sm:px-6 lg:flex lg:items-center lg:justify-between lg:py-16 lg:px-8">
-                <fieldset>
+                <fieldset class="p-2">
                     <legend class="contents text-base font-medium text-gray-900">04 - Persistência em resolver problemas.
                     </legend>
                     <div class="mt-4 space-y-4">
@@ -181,7 +181,7 @@
                         </div>
                     </div>
                 </fieldset>
-                <fieldset>
+                <fieldset class="p-2">
                     <legend class="contents text-base font-medium text-gray-900">05 - Disposição ao sacrifício para atingir
                         metas.
                     </legend>
@@ -218,7 +218,7 @@
                         </div>
                     </div>
                 </fieldset>
-                <fieldset>
+                <fieldset class="p-2">
                     <legend class="contents text-base font-medium text-gray-900">06 - Imersão total nas atividades que
                         desenvolve.
                     </legend>
@@ -264,7 +264,7 @@
         </p>
         <div class="bg-gray-100">
             <div class="mx-auto max-w-7xl py-12 px-4 sm:px-6 lg:flex lg:items-center lg:justify-between lg:py-16 lg:px-8">
-                <fieldset>
+                <fieldset class="p-2">
                     <legend class="contents text-base font-medium text-gray-900">07 - Procura ter conhecimento profundo das
                         necessidades dos clientes.</legend>
                     <div class="mt-4 space-y-4">
@@ -300,7 +300,7 @@
                         </div>
                     </div>
                 </fieldset>
-                <fieldset>
+                <fieldset class="p-2">
                     <legend class="contents text-base font-medium text-gray-900">08 - É dirigido pelo mercado (market
                         driven).</legend>
                     <div class="mt-4 space-y-4">
@@ -336,7 +336,7 @@
                         </div>
                     </div>
                 </fieldset>
-                <fieldset>
+                <fieldset class="p-2">
                     <legend class="contents text-base font-medium text-gray-900">09 - Obsessão em criar valor e satisfazer
                         aos clientes.</legend>
                     <div class="mt-4 space-y-4">
@@ -380,7 +380,7 @@
             ambigüidade e incertezas</p>
         <div class="bg-gray-100">
             <div class="mx-auto max-w-7xl py-12 px-4 sm:px-6 lg:flex lg:items-center lg:justify-between lg:py-16 lg:px-8">
-                <fieldset>
+                <fieldset class="p-2">
                     <legend class="contents text-base font-medium text-gray-900">10 - Toma riscos calculados (analisa tudo
                         antes de
                         agir).</legend>
@@ -417,7 +417,7 @@
                         </div>
                     </div>
                 </fieldset>
-                <fieldset>
+                <fieldset class="p-2">
                     <legend class="contents text-base font-medium text-gray-900">11 - Procura minimizar os riscos.</legend>
                     <div class="mt-4 space-y-4">
                         <div class="flex items-center">
@@ -452,7 +452,7 @@
                         </div>
                     </div>
                 </fieldset>
-                <fieldset>
+                <fieldset class="p-2">
                     <legend class="contents text-base font-medium text-gray-900">12 - Tolerância às incertezas e falta de
                         estrutura.</legend>
                     <div class="mt-4 space-y-4">
@@ -492,7 +492,7 @@
         </div>
         <div class="bg-gray-100">
             <div class="mx-auto max-w-7xl py-12 px-4 sm:px-6 lg:flex lg:items-center lg:justify-between lg:py-16 lg:px-8">
-                <fieldset>
+                <fieldset class="p-2">
                     <legend class="contents text-base font-medium text-gray-900">13 - Tolerância ao estresse e conflitos.
                     </legend>
                     <div class="mt-4 space-y-4">
@@ -528,7 +528,7 @@
                         </div>
                     </div>
                 </fieldset>
-                <fieldset>
+                <fieldset class="p-2">
                     <legend class="contents text-base font-medium text-gray-900">14 - Hábil em resolver problemas e
                         integrar soluções.</legend>
                     <div class="mt-4 space-y-4">
@@ -572,7 +572,7 @@
             autoconfiança e habilidade de adaptação</p>
         <div class="bg-gray-100">
             <div class="mx-auto max-w-7xl py-12 px-4 sm:px-6 lg:flex lg:items-center lg:justify-between lg:py-16 lg:px-8">
-                <fieldset>
+                <fieldset class="p-2">
                     <legend class="contents text-base font-medium text-gray-900">15 - Não-convencional, cabeça aberta,
                         pensador.</legend>
                     <div class="mt-4 space-y-4">
@@ -608,7 +608,7 @@
                         </div>
                     </div>
                 </fieldset>
-                <fieldset>
+                <fieldset class="p-2">
                     <legend class="contents text-base font-medium text-gray-900">16 - Não se conforma com o status quo.
                     </legend>
                     <div class="mt-4 space-y-4">
@@ -644,7 +644,7 @@
                         </div>
                     </div>
                 </fieldset>
-                <fieldset>
+                <fieldset class="p-2">
                     <legend class="contents text-base font-medium text-gray-900">17 - Hábil em se adaptar a novas
                         situações.</legend>
                     <div class="mt-4 space-y-4">
@@ -684,7 +684,7 @@
         </div>
         <div class="bg-gray-100">
             <div class="mx-auto max-w-7xl py-12 px-4 sm:px-6 lg:flex lg:items-center lg:justify-between lg:py-16 lg:px-8">
-                <fieldset>
+                <fieldset class="p-2">
                     <legend class="contents text-base font-medium text-gray-900">18 - Não tem medo de falhar.</legend>
                     <div class="mt-4 space-y-4">
                         <div class="flex items-center">
@@ -719,7 +719,7 @@
                         </div>
                     </div>
                 </fieldset>
-                <fieldset>
+                <fieldset class="p-2">
                     <legend class="contents text-base font-medium text-gray-900">19 - Hábil em definir conceitos e detalhar
                         idéias.</legend>
                     <div class="mt-4 space-y-4">
@@ -762,7 +762,7 @@
         <p class="mt-2 text-3xl font-bold leading-8 m-4 tracking-tight text-gray-900 sm:text-3xl">Motivação e superação</p>
         <div class="bg-gray-100">
             <div class="mx-auto max-w-7xl py-12 px-4 sm:px-6 lg:flex lg:items-center lg:justify-between lg:py-16 lg:px-8">
-                <fieldset>
+                <fieldset class="p-2">
                     <legend class="contents text-base font-medium text-gray-900">20 - Orientação a metas e resultados.
                     </legend>
                     <div class="mt-4 space-y-4">
@@ -798,7 +798,7 @@
                         </div>
                     </div>
                 </fieldset>
-                <fieldset>
+                <fieldset class="p-2">
                     <legend class="contents text-base font-medium text-gray-900">21 - Dirigido pela necessidade de crescer
                         e atingir
                         melhores resultados.</legend>
@@ -835,7 +835,7 @@
                         </div>
                     </div>
                 </fieldset>
-                <fieldset>
+                <fieldset class="p-2">
                     <legend class="contents text-base font-medium text-gray-900">22 - Não se preocupa com status e poder.
                     </legend>
                     <div class="mt-4 space-y-4">
@@ -875,7 +875,7 @@
         </div>
         <div class="bg-gray-100">
             <div class="mx-auto max-w-7xl py-12 px-4 sm:px-6 lg:flex lg:items-center lg:justify-between lg:py-16 lg:px-8">
-                <fieldset>
+                <fieldset class="p-2">
                     <legend class="contents text-base font-medium text-gray-900">23 - Autoconfiança.</legend>
                     <div class="mt-4 space-y-4">
                         <div class="flex items-center">
@@ -910,7 +910,7 @@
                         </div>
                     </div>
                 </fieldset>
-                <fieldset>
+                <fieldset class="p-2">
                     <legend class="contents text-base font-medium text-gray-900">24 - Ciente de suas fraquezas e forças.
                     </legend>
                     <div class="mt-4 space-y-4">
@@ -946,7 +946,7 @@
                         </div>
                     </div>
                 </fieldset>
-                <fieldset>
+                <fieldset class="p-2">
                     <legend class="contents text-base font-medium text-gray-900">25 - Tem senso de humor e procura estar
                         animado.</legend>
                     <div class="mt-4 space-y-4">
@@ -986,7 +986,7 @@
         </div>
         <div class="bg-gray-100">
             <div class="mx-auto max-w-7xl py-12 px-4 sm:px-6 lg:flex lg:items-center lg:justify-between lg:py-16 lg:px-8">
-                <fieldset>
+                <fieldset class="p-2">
                     <legend class="contents text-base font-medium text-gray-900">26 - Tem iniciativa.</legend>
                     <div class="mt-4 space-y-4">
                         <div class="flex items-center">
@@ -1021,7 +1021,7 @@
                         </div>
                     </div>
                 </fieldset>
-                <fieldset>
+                <fieldset class="p-2">
                     <legend class="contents text-base font-medium text-gray-900">27 - Poder de autocontrole.</legend>
                     <div class="mt-4 space-y-4">
                         <div class="flex items-center">
@@ -1056,7 +1056,7 @@
                         </div>
                     </div>
                 </fieldset>
-                <fieldset>
+                <fieldset class="p-2">
                     <legend class="contents text-base font-medium text-gray-900">28 - Transmite integridade e
                         confiabilidade.</legend>
                     <div class="mt-4 space-y-4">
@@ -1096,7 +1096,7 @@
         </div>
         <div class="bg-gray-100">
             <div class="mx-auto max-w-7xl py-12 px-4 sm:px-6 lg:flex lg:items-center lg:justify-between lg:py-16 lg:px-8">
-                <fieldset>
+                <fieldset class="p-2">
                     <legend class="contents text-base font-medium text-gray-900">29 - É paciente e saber ouvir.</legend>
                     <div class="mt-4 space-y-4">
                         <div class="flex items-center">
@@ -1131,7 +1131,7 @@
                         </div>
                     </div>
                 </fieldset>
-                <fieldset>
+                <fieldset class="p-2">
                     <legend class="contents text-base font-medium text-gray-900">30 - Sabe construir times e trabalhar em
                         equipe.</legend>
                     <div class="mt-4 space-y-4">
@@ -1188,7 +1188,7 @@
                 </div>
                 <div class="order-3 mt-2 w-full flex-shrink-0 sm:order-2 sm:mt-0 sm:w-auto">
                     <a class="flex items-center justify-center rounded-md border border-transparent bg-white px-4 py-2 text-sm font-medium text-indigo-600 shadow-sm hover:bg-indigo-50"
-                        href="#">Salvar</a>
+                        href="/quiz/entrepreneurProfileTest/02">Salvar</a>
                 </div>
             </div>
         </div>
