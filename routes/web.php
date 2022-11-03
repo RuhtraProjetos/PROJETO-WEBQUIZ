@@ -34,3 +34,6 @@ Route::get('/quiz/entrepreneurProfileTest', function () {
 Route::get('/quiz/entrepreneurProfileTest/01', function () {
     return view('pages.quiz.entrepreneurProfileTest.entrepreneurProfileTest01');
 });
+Route::get('/quiz/entrepreneurProfileTest/02', function () {
+    return view('pages.quiz.entrepreneurProfileTest.entrepreneurProfileTest02');
+});
